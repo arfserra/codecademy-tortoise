@@ -62,3 +62,34 @@ nav li {
 	line-height: 1.2;
 	text-transform: uppercase;
 }
+
+/* Benefits */
+
+#benefits {
+	margin: 3rem auto;
+	display: flex;
+	justify-content: center;
+}
+
+.benefit {
+	height: 8rem;
+	width: 5rem;
+	margin-left: 6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.benefit img {
+	width: 5rem;
+}
+
+.benefit:first-of-type {
+	margin-left: 0;
+}
+
+.benefit:first-of-type img{
+	width: 3.5rem;
+}
