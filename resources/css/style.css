@@ -8,10 +8,10 @@ html {
 
 header {
 	height: 30rem;
-	top: 0;
 	background-image: url("../images/glasses-bg.png");
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 50% 50%;
+	background-position: center;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -134,4 +134,47 @@ footer {
 footer img {
 	height: 1.5rem;
 	margin: 4rem 1rem 4rem 4rem;
+}
+
+/* Media Queries */
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+
+/* Header */
+header {
+	height: 22rem;	
+	border: solid 1px black;
+}
+
+/* Nav Bar */
+nav {
+	position: fixed;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/* Hero box */
+
+#hero {
+	margin-top: 10rem;
+	margin-left: 100% - 2rem;
+}
+
+#hero h2 {
+	display: inline;
+	padding: 1rem 4rem;
+	background-color: white;
+	font-weight: bold;
+	font-size: 1.33rem;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 470px) {
+
 }
