@@ -97,6 +97,7 @@ nav li {
 /* Information */
 
 #information {
+	margin-bottom: 5rem;
 	display: flex;
 	justify-content: center;
 }
@@ -111,7 +112,7 @@ nav li {
 
 .info h2 {
 	width: 10rem;
-	padding: 0.5rem 1.25rem;
+	padding: 0.75rem 1.25rem;
 	margin-bottom: 1rem;
 	background-color: cadetblue;
 	font-weight: bold;
@@ -119,3 +120,18 @@ nav li {
 	text-transform: uppercase;
 }
 
+/* Footer */
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+	background-color: azure;
+	display: flex;
+	align-items: center;
+}
+
+
+footer img {
+	height: 1.5rem;
+	margin: 4rem 1rem 4rem 4rem;
+}
